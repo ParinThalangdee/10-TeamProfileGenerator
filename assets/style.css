@@ -1,0 +1,11 @@
+body {
+  background-color: salmon;
+}
+
+.titleBar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cardName {
+  background-color: blue;
+}
