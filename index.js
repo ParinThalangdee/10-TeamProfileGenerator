@@ -19,6 +19,7 @@ const managerQuestions = () => {
       return employeePrompt();
     })
 }
+
 // prompts engineer questions then creates object from user inputs based on Engineer class 
 const engineerQuestions = () => {
   inquirer.prompt(engineerQuestionsArr)
@@ -28,6 +29,7 @@ const engineerQuestions = () => {
       return employeePrompt();
     })
 }
+
 // prompts intern questions then creates object from user inputs based on Intern class 
 const internQuestions = () => {
   inquirer.prompt(internQuestionsArr)
@@ -37,6 +39,7 @@ const internQuestions = () => {
       return employeePrompt();
     })
 }
+
 // handles prompts
 const employeePrompt = () => {
   inquirer.prompt([{
